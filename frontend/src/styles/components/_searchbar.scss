@@ -1,0 +1,30 @@
+.searchBar_container {
+    background-color: $main;
+    padding: 8px 120px;
+    display: flex;
+
+    & img {
+        margin-right: 32px;
+    }
+}
+
+.searchBar_label {
+    width: 100%;
+    display: flex;
+
+    & input {
+        width: 100%;
+        border: none;
+        outline: none;
+        padding-left: 16px;
+    }
+
+    & button {
+        width: 50px;
+        border: none;
+    }
+
+    & button:hover {
+        cursor: pointer;
+    }
+}
